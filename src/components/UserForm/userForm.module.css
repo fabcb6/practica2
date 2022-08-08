@@ -1,0 +1,22 @@
+.userFormContainer {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formController {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.formController input {
+  flex-grow: 1;
+}
+.formController label {
+  width: 60px;
+}
